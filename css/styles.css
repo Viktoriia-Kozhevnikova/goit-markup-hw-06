@@ -70,7 +70,7 @@ a {
 
 .contacts:hover,
 .contacts:focus {
-    background-color: #404BBF;
+    color: #404BBF;
 }
 
 /* main */
@@ -102,6 +102,7 @@ a {
 .main-button:hover,
 .main-button:focus {
     color: #404BBF;
+    background-color: #404BBF;
 }
 
 .subject {
