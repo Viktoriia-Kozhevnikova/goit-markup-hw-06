@@ -70,7 +70,7 @@ a {
 
 .contacts:hover,
 .contacts:focus {
-    color: #404bbf;
+    background-color: #404BBF;
 }
 
 /* main */
@@ -114,10 +114,6 @@ a {
     color: #2e2f42;
 }
 
-.item-avantages {
-    background-color: #FFFFFF;
-}
-
 .heading-avantages {
     font-weight: 500;
     font-size: 20px;
@@ -135,6 +131,10 @@ a {
 
 .our-team {
     background-color: #F4F4FD;
+}
+
+.item-our-team {
+    background-color: #FFFFFF;
 }
 
 .heading-our-team {
