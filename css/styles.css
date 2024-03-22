@@ -44,7 +44,7 @@ a {
 
 .header-info-link:hover,
 .header-info-link:focus {
-    color: #404bbf;
+    color: #404BBF;
 }
 
 .header-address {
@@ -114,6 +114,9 @@ a {
     color: #2e2f42;
 }
 
+.item-avantages {
+    background-color: #FFFFFF;
+}
 
 .heading-avantages {
     font-weight: 500;
