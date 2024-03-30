@@ -10,11 +10,11 @@ h3,
 h4,
 h5,
 h6 {
-    margin: o auto;
+    margin: o;
 }
 
 p {
-    margin: 0 auto;
+    margin: 0;
 }
 
 ul {
@@ -70,7 +70,6 @@ img {
     text-transform: uppercase;
     color: #4d5ae5;
     margin-right: 76px;
-    margin-bottom: 16px;
     display: inline-block;
 }
 
@@ -184,8 +183,8 @@ img {
     background-color: #404BBF;
 }
 
-.avantage {
-    padding: 120px 0
+.avantages {
+    padding: 120px 0;
 }
 
 .subject {
@@ -296,9 +295,6 @@ img {
 
 .item-our-portfolio {
     background: #fff;
-    border-bottom: 1px solid #e7e9fc;
-    border-left: 1px solid #e7e9fc;
-    border-right: 1px solid #e7e9fc;
     width: calc((100% - 48px) / 3);
 }
 .portfolio {
@@ -337,8 +333,8 @@ img {
 }
 
 .footer {
+    padding: 100px 0;
     background: #2e2f42;
-    padding: 100px 0
 }
 
 .footer-logo {
