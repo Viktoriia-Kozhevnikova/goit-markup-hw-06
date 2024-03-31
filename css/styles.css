@@ -10,7 +10,7 @@ h3,
 h4,
 h5,
 h6 {
-    margin: o;
+    margin: 0;
 }
 
 p {
@@ -59,6 +59,7 @@ img {
     display: flex;
     flex-direction: row;
     align-items: center;
+    margin-right: auto;
 }
 
 .header-logo {
@@ -74,11 +75,6 @@ img {
 }
 
 .logo-studio {
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
     color: #2e2f42;
 }
 
@@ -86,7 +82,6 @@ img {
     display: flex;
     flex-direction: row;
     gap: 40px;
-    margin-right: 332px;
 }
 
 .header-info-link {
@@ -268,7 +263,6 @@ img {
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
-    margin-top: 32px;
     margin-bottom: 8px;
 }
 
@@ -278,7 +272,6 @@ img {
     letter-spacing: 0.02em;
     text-align: center;
     color: #434455;
-    margin-bottom: 32px;
 }
 
 .block-portfolio {
@@ -321,15 +314,7 @@ img {
 
 /* footer */
 .footer-logo-studio {
-    font-family: "Raleway", sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
     color: #f4f4fd;
-    display: inline-block;
-    margin-bottom: 16px;
 }
 
 .footer {
@@ -347,7 +332,6 @@ img {
     color: #4d5ae5;
     margin-bottom: 16px;
     display: inline-block;
-
 }
 
 .text-footer {
