@@ -370,9 +370,12 @@ img {
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.item-our-portfolio:hover {
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+
 .item-our-portfolio:hover .image-paragraph {
     transform: translateY(0%);
-    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .portfolio-image{
@@ -434,6 +437,9 @@ img {
     padding: 100px 0;
     background: #2e2f42;
 }
+.footer-container-logo {
+    margin-right: 120px;
+}
 
 .footer-logo {
     font-family: "Raleway", sans-serif;
@@ -444,7 +450,6 @@ img {
     text-transform: uppercase;
     color: #4d5ae5;
     margin-bottom: 16px;
-    margin-right: 120px;
     display: inline-block;
     text-decoration: none;
 }
