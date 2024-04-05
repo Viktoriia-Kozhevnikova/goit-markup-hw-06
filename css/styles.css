@@ -352,6 +352,14 @@ img {
     background-color: #404bbf;
 }
 
+.social-link-team:focus {
+    background-color: #404bbf;
+}
+
+.our-team-icons{
+    fill: #f4f4fd;
+}
+
 .block-portfolio {
     padding: 120px 0 120px 0;
 }
@@ -437,6 +445,7 @@ img {
     padding: 100px 0;
     background: #2e2f42;
 }
+
 .footer-container-logo {
     margin-right: 120px;
 }
