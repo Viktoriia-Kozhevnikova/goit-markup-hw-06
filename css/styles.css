@@ -4,6 +4,12 @@ body {
     color: #434455
 }
 
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
 h1,
 h2,
 h3,
@@ -47,6 +53,8 @@ img {
 
 .top {
     border-bottom: 1px solid #e7e9fc;
+    box-shadow: 0 1px 6px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 2px 1px 0 rgba(46, 47, 66, 0.08);
+        background: #fff;
 }
 
 .header-container {
@@ -83,6 +91,24 @@ img {
     flex-direction: row;
     gap: 40px;
 }
+
+.current {
+    position: relative;
+    color: #404bbf;
+}
+
+.current::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    display: block;
+    width: 100%;
+    height: 4px;
+    border-radius: 2px;
+    background-color: #404bbf;
+}
+
 
 .header-info-link {
     font-weight: 500;
@@ -140,6 +166,13 @@ img {
 .slogan {
     background: #2e2f42;
     padding: 188px 0;
+    background-image: linear-gradient(to bottom, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(/images/hero.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    max-width: 1440рх;
+    color: #fff;;
+
 }
 
 .main-title {
@@ -235,6 +268,17 @@ img {
     color: #434455;
 }
 
+.link-avantages {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 112px;
+    background-color: #f4f4fd;
+    border-radius: 4px;
+    border: 1px solid #8e8f99;
+    margin-bottom: 8px;
+}
+
 .our-team-list {
     display: flex;
     flex-direction: row;
@@ -250,6 +294,8 @@ img {
     background-color: #FFFFFF;
     border-radius: 0 0 4px 4px;
     width: calc((100% - 72px) / 4);
+    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+    padding-bottom: 32px;
 }
 
 .employee {
@@ -274,6 +320,35 @@ img {
     color: #434455;
 }
 
+.social-list-team {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+ 
+.social-item-team {
+    width: 40px;
+    height: 40px;
+}
+
+.social-link-team {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #4d5ae5;
+    border-radius: 50%;
+    position: relative;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    fill: #fff;
+}
+
+.social-link-team:hover {
+    background-color: #404bbf;
+}
+
 .block-portfolio {
     padding: 120px 0 120px 0;
 }
@@ -290,6 +365,32 @@ img {
     background: #fff;
     width: calc((100% - 48px) / 3);
 }
+
+.item-our-portfolio:hover .image-paragraph {
+    transform: translateY(0%);
+}
+
+.portfolio-image{
+    position: relative;
+    overflow: hidden;
+}
+
+.image-paragraph {
+    position: absolute;
+    top: 0;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #f4f4fd;
+    padding: 40px 32px;
+    background-color: #4d5ae5;
+    transform: translateY(100%);
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+}
+
 .portfolio {
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
@@ -313,6 +414,17 @@ img {
 }
 
 /* footer */
+.footer-container{
+    display: flex;
+    align-items: baseline;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+
+.footer-container-logo {
+    margin-right: 120px;
+}
+
 .footer-logo-studio {
     color: #f4f4fd;
 }
@@ -332,6 +444,7 @@ img {
     color: #4d5ae5;
     margin-bottom: 16px;
     display: inline-block;
+    text-decoration: none;
 }
 
 .text-footer {
@@ -340,4 +453,40 @@ img {
     letter-spacing: 0.02em;
     color: #f4f4fd;
     max-width: 264px;
+}
+
+.text-social {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #fff;
+    margin-bottom: 16px;
+}
+
+.social-list-footer {
+    display: flex;
+    gap: 16px;
+}
+
+.social-item {
+    width: 40px;
+    height: 40px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.link-footer {
+    width: 100%;
+    height: 100%;
+    background-color: #4d5ae5;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    fill: #fff;
+}
+
+.link-footer:hover {
+    background-color: #31d0aa;;
 }
