@@ -424,7 +424,6 @@ img {
     align-items: baseline;
     justify-content: flex-start;
     flex-direction: row;
-    margin-right: 120px;
 }
 
 .footer-logo-studio {
@@ -445,6 +444,7 @@ img {
     text-transform: uppercase;
     color: #4d5ae5;
     margin-bottom: 16px;
+    margin-right: 120px;
     display: inline-block;
     text-decoration: none;
 }
@@ -489,7 +489,7 @@ img {
     fill: #fff;
 }
 
-.icon {
+.footer-icons {
     fill: #f4f4fd;
 }
 
