@@ -606,8 +606,8 @@ input {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* opacity: 0;
-    pointer-events: none; */
+    opacity: 0;
+    pointer-events: none;
     transition: opacity 258ms ease-in-out;
 }
 
