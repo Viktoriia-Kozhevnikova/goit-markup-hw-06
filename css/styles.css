@@ -521,7 +521,7 @@ input {
 }
 
 .footer-email-form {
-    margin-left: 80px;
+    margin-left: auto;
 }
 
 .text-form {
@@ -703,6 +703,7 @@ input {
 
 .modal-input {
     font-family: inherit;
+    font-size: 12px;
     border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 4px;
     width: 360px;
@@ -817,6 +818,10 @@ input {
     background-color: #404bbf;
     border: none;
     fill: #F4F4FD;
+}
+
+.checkbox-input:focus+.checkbox-label>.checkbox-square {
+    border-color: #4d5ae5;
 }
 
 .checkbox-icon {
