@@ -634,10 +634,6 @@ input {
     fill: #f4f4fd;
 }
 
-.block-portfolio {
-    padding: 120px 0 120px 0;
-}
-
 .our-portfolio-list {
     display: flex;
     flex-direction: column;
